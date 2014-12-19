@@ -16,7 +16,7 @@ The following operations are carried out by the instructions in a single file (r
 
 The script requires the following packages: dplyr and reshape2
 
-It begins by checking that the dataset is in the working directory by checking that the relevant folder is there; it does not actually check the files or folder structure; this is based on the code provided in the lectures. If the folder is not there, the data are downloaded and unzipped.
+It begins by checking that the dataset is in the working directory by checking that the relevant folder (\UCI HAR Dataset) is there; it does not actually check the files or folder structure. This checking routine is based on the code provided in the lectures. If the folder is not there, the data are downloaded and unzipped. Note that if you have downloaded and extracted the data files into your working directory indpendently, the path to the files may in fact be \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset\ if the default Windows extract is used, in which case the dataset will be downloaded and unzipped by the script; blame it on differences between Windows' extract command and R's unzip().
 
 We do not use the inertial data files, but only the summary and statistical data provided in the X file, the subject file and the y file (the activity type) for both the test and train sets. 
 
