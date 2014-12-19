@@ -17,7 +17,7 @@ Variables
 =========
 subject
 
-    An integer in [1, 30] denoting the person wearing the smartphone
+An integer in [1, 30] denoting the person wearing the smartphone
 
 activity
     A factor with 6 levels obtained from the "activity_labels.txt" file in the dataset
