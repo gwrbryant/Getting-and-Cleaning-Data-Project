@@ -1,4 +1,5 @@
 Study Design
+============
 - how the data were collected
 Information about the summary choices
 Information about the experimental study design
@@ -7,13 +8,13 @@ raw data
 tidy data
 
 Code Book
-
+=========
 Coding for each of the variables is outlined below.
 
 There are only two numeric variables in the dataset
 
 Variables
-
+=========
 subject
     An integer in [1, 30] denoting the person wearing the smartphone
 
