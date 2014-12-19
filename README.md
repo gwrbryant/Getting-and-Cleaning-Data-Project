@@ -14,7 +14,7 @@ The following operations are carried out by the instructions in a single file (r
      
  5. From the data set in step 4, creates a second, independent tidy data set With the average of each variable for each activity and each subject.
 
-The script requires the following packages: dplyr and reshape2
+The script requires the following packages to be installed before running it: dplyr and reshape2 
 
 It begins by checking that the dataset is in the working directory by checking that the relevant folder (\UCI HAR Dataset) is there; it does not actually check the files or folder structure. This checking routine is based on the code provided in the lectures. If the folder is not there, the data are downloaded and unzipped. Note that if you have downloaded and extracted the data files into your working directory indpendently, the path to the files may in fact be \getdata-projectfiles-UCI HAR Dataset\UCI HAR Dataset\ if the default Windows extract is used, in which case the dataset will be downloaded and unzipped by the script; blame it on differences between Windows' extract command and R's unzip().
 
